@@ -23,7 +23,7 @@ export default defineConfig(({ command, mode }) => {
     },
     css: {
       preprocessorOptions: {
-        //定义全局变量
+        //定义scss全局变量
         scss: {
           additionalData: `@import '@/styles/variables.scss';`,
         },
